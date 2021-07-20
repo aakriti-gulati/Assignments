@@ -1,0 +1,34 @@
+table {
+	width: 100%;
+	border: 3px solid black;
+	border-spacing: 3px;
+	background-color: #ACFFAD;
+}
+
+th {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+#topBottom {
+	word-wrap: break-word;
+	width: 15px;
+	font-size: 25px;
+}
+
+fieldset {
+	background-color: #C9D8B6;
+}
+
+legend {
+	background-color: gray;
+	color: white;
+	padding: 5px 10px;
+}
