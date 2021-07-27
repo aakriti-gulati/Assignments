@@ -1,0 +1,29 @@
+#phonebook {
+	box-sizing: border-box;
+	width: 500px;
+	height: 500px;
+	overflow: scroll;
+	margin: auto;
+}
+
+dl > div {
+	padding: 24px 0 0 0;
+	background: #FFF;
+}
+
+dt {
+	background-color: #595260;
+	color: white;
+	font-size: 20px;
+	padding: 5px 5px;
+	border: 1px solid black;
+	font-weight: 600;
+    position: sticky;
+    top: 0px;
+}
+
+dd {
+	border-top: 1px solid #C2B8A3;
+	font-size: 20px;
+	padding: 5px 5px;
+}
