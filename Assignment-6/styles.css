@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(120deg, #e2c35d, #d88771);
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	min-height: 100vh;
+}
+
+header {
+	font-size: 1.5rem;
+}
+
+header, form {
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form input, form button {
+	padding: 0.5rem;
+	font-size: 2rem;
+	border: none;
+	background: white;
+}
+
+form button {
+	color: #d88771;
+	background: white;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+form button:hover {
+	background: #d88771;
+	color: white;
+}
+
+.todo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.todo-list {
+	min-width: 30%;
+	list-style: none;
+}
+
+.todo {
+	margin: 0.5rem;
+	background: white;
+	color: black;
+	font-size: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 0.5s ease;
+}
+
+.todoItem {
+	outline: none;
+	border: none;
+	width: 20vw;
+	margin-left: 20px;
+	font-size: 1.5rem;
+}
+
+.trash-btn, .complete-btn, .edit-btn, .up-btn, .down-btn {
+	background: #ff6f47;
+	color: white;
+	border: none;
+	padding: 1rem;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.edit-btn, .up-btn, .down-btn {
+	background: wheat;
+	color: rgb(8, 23, 88);
+}
+
+.complete-btn {
+	background: rgb(73, 204, 73);
+}
+
+.itemBox {
+	flex: 1;
+}
+
+.completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
